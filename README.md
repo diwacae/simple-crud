@@ -1,6 +1,6 @@
 # SIMPLE CRUD
 
-- CRUD
+- CREATE
   INSERT INTO (NAMA_TABLE) (key) VALUES ('$value);
 - READ
   SELECT \* FROM (NAMA_TABLE) WHERE nama = 'Fulan';
