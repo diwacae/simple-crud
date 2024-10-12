@@ -23,6 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tambah Data</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -34,13 +35,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <input type="text" name="nama" required><br>
     <label>Program Studi:</label><br>
     <select name="prodi">
-      <option value="Teknik Informatika">S1 Teknik Informatika</option>
-      <option value="Sistem Informasi">S1 Sistem Informasi</option>
+      <option value="S1 Teknik Informatika">S1 Teknik Informatika</option>
+      <option value="S1 Sistem Informasi">S1 Sistem Informasi</option>
       <option value="S2 Teknik Informatika">S2 Teknik Informatika</option>
     </select><br>
     <label>Semester:</label><br>
     <input type="text" name="semester"><br><br>
     <button type="submit">Simpan</button>
+    <a href="index.php" class="btn-cancel">Cancel</a>
   </form>
 </body>
 
